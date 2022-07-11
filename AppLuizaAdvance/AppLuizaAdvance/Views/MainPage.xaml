@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Shell xmlns="http://xamarin.com/schemas/2014/forms"
+       xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+       xmlns:Views="clr-namespace:AppLuizaAdvance.Views"
+       x:Class="AppLuizaAdvance.Views.MainPage">
+
+    <Shell.FlyoutHeader>
+        <Frame HeightRequest="200"
+               BackgroundColor="Black">
+            <StackLayout>
+                <Image Source="splashScreenLogo.png"
+                       HeightRequest="200"/>
+            </StackLayout>
+        </Frame>
+    </Shell.FlyoutHeader>
+    
+    <FlyoutItem Title="Luiza Advance"
+                Shell.TabBarIsVisible="False"
+                FlyoutDisplayOptions="AsMultipleItems">
+        <ShellContent Title="Simulador Advance" Icon="" IsTabStop="True" ContentTemplate="{DataTemplate Views:LuizaAdvancePage}"/>
+        <ShellContent Title="CNCRED Simulador" Icon="" IsTabStop="True" ContentTemplate="{DataTemplate Views:CNCREDPage}"/>
+        <ShellContent Title="Sobre..." Icon="" IsTabStop="True" ContentTemplate="{DataTemplate Views:SobreAppPage}"/>
+    </FlyoutItem>
+
+    <Shell.FlyoutFooter>
+        <Frame HeightRequest="50"
+               BackgroundColor="Red">
+            <StackLayout>
+                <Label Text="Pagina Sobre Aqui"/>
+            </StackLayout>
+        </Frame>
+    </Shell.FlyoutFooter>
+
+</Shell>
