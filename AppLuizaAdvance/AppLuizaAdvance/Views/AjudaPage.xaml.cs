@@ -10,9 +10,9 @@ using Xamarin.Forms.Xaml;
 namespace AppLuizaAdvance.Views
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class MainPage : ContentPage
+    public partial class AjudaPage : ContentPage
     {
-        public MainPage()
+        public AjudaPage()
         {
             InitializeComponent();
         }

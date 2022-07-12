@@ -9,7 +9,7 @@ namespace AppLuizaAdvance
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            MainPage = new ShellPage();
         }
 
         protected override void OnStart()

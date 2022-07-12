@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Shell xmlns="http://xamarin.com/schemas/2014/forms"
+       xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+       xmlns:Views="clr-namespace:AppLuizaAdvance.Views"
+       x:Class="AppLuizaAdvance.Views.ShellPage">
+
+    <Shell.FlyoutHeaderTemplate>
+        <DataTemplate>
+            <Frame HeightRequest="200"
+               BackgroundColor="Black">
+                <StackLayout>
+                    <Image Source="splashScreenLogo.png"
+                       HeightRequest="200"/>
+                </StackLayout>
+            </Frame>
+        </DataTemplate>
+    </Shell.FlyoutHeaderTemplate>
+
+    <FlyoutItem Title="Luiza Advance"
+                Shell.TabBarIsVisible="False"
+                FlyoutDisplayOptions="AsMultipleItems"
+                Shell.BackgroundColor="#222222">
+        <ShellContent Title="Home" Icon="iconeHome.png" IsTabStop="True" ContentTemplate="{DataTemplate Views:MainPage}"/>
+        <ShellContent Title="Simulador Advance" Icon="iconeAdvance.png" IsTabStop="True" ContentTemplate="{DataTemplate Views:LuizaAdvancePage}"/>
+        <ShellContent Title="CNCRED Simulador" Icon="iconeCNCRED.png" IsTabStop="True" ContentTemplate="{DataTemplate Views:CNCREDPage}"/>
+        <ShellContent Title="Sobre..." Icon="iconeSobre.png" IsTabStop="True" ContentTemplate="{DataTemplate Views:SobreAppPage}"/>
+        <ShellContent Title="Ajuda" Icon="iconeAjuda.png" IsTabStop="True" ContentTemplate="{DataTemplate Views:AjudaPage}"/>
+    </FlyoutItem>
+
+    <Shell.FlyoutFooterTemplate>
+        <DataTemplate>
+            <StackLayout>
+                <Label Text="Luiza Social Media Tech"
+                   TextColor="Black"
+                   FontAttributes="Bold"
+                   HorizontalOptions="Center"/>
+                <Label Text="Versão Experimental"
+                   TextColor="Black"
+                   HorizontalOptions="Center"/>
+            </StackLayout>
+        </DataTemplate>
+    </Shell.FlyoutFooterTemplate>
+
+</Shell>
