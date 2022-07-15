@@ -25,6 +25,7 @@
         <ShellContent Title="CNCRED Simulador" Icon="iconeCNCRED.png" IsTabStop="True" ContentTemplate="{DataTemplate Views:CNCREDPage}"/>
         <ShellContent Title="Sobre..." Icon="iconeSobre.png" IsTabStop="True" ContentTemplate="{DataTemplate Views:SobreAppPage}"/>
         <ShellContent Title="Ajuda" Icon="iconeAjuda.png" IsTabStop="True" ContentTemplate="{DataTemplate Views:AjudaPage}"/>
+        <ShellContent Title="Cadastrar Taxas" Icon="iconeAjuda.png" IsTabStop="True" ContentTemplate="{DataTemplate Views:TaxasPage}"/>
     </FlyoutItem>
 
     <Shell.FlyoutFooterTemplate>

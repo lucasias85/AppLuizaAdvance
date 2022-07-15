@@ -1,0 +1,188 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppLuizaAdvance.Views.TaxasPage">
+
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Salvar"
+                     Command="{Binding SalvarTaxas}"/>
+    </ContentPage.ToolbarItems>
+    
+    <ContentPage.Content>
+        <Grid Padding="3">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="1.5*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+            <Picker Grid.Row="0" Grid.ColumnSpan="3" Title="Promotora de Crédito" HorizontalTextAlignment="Center">
+                <Picker.Items>
+                    <x:String>Luiza Advance Créditos</x:String>
+                    <x:String>CN CRED Pagamentos</x:String>
+                </Picker.Items>
+            </Picker>
+
+            <Frame Grid.Row="1" Grid.Column="0" BackgroundColor="#333333" CornerRadius="10">
+                <StackLayout>
+                    <Label Text="Tx. Total 1x"
+                           TextColor="White"
+                           FontAttributes="Bold"
+                           HorizontalTextAlignment="Center"/>
+                    <Entry Keyboard="Numeric"
+                           TextColor="White"
+                           HorizontalTextAlignment="Center"/>
+                </StackLayout>
+            </Frame>
+
+            <Frame Grid.Row="1" Grid.Column="1" BackgroundColor="#222222" CornerRadius="10">
+                <StackLayout>
+                    <Label Text="Tx. Total 2x"
+                           TextColor="White"
+                           FontAttributes="Bold"
+                           HorizontalTextAlignment="Center"/>
+                    <Entry Keyboard="Numeric"
+                           TextColor="White"
+                           HorizontalTextAlignment="Center"/>
+                </StackLayout>
+            </Frame>
+
+            <Frame Grid.Row="1" Grid.Column="2" BackgroundColor="#111111" CornerRadius="10">
+                <StackLayout>
+                    <Label Text="Tx. Total 3x"
+                           TextColor="White"
+                           FontAttributes="Bold"
+                           HorizontalTextAlignment="Center"/>
+                    <Entry Keyboard="Numeric"
+                           TextColor="White"
+                           HorizontalTextAlignment="Center"/>
+                </StackLayout>
+            </Frame>
+
+            <Frame Grid.Row="2" Grid.Column="0" BackgroundColor="#333333" CornerRadius="10">
+                <StackLayout>
+                    <Label Text="Tx. Total 4x"
+                           TextColor="White"
+                           FontAttributes="Bold"
+                           HorizontalTextAlignment="Center"/>
+                    <Entry Keyboard="Numeric"
+                           TextColor="White"
+                           HorizontalTextAlignment="Center"/>
+                </StackLayout>
+            </Frame>
+
+            <Frame Grid.Row="2" Grid.Column="1" BackgroundColor="#222222" CornerRadius="10">
+                <StackLayout>
+                    <Label Text="Tx. Total 5x"
+                           TextColor="White"
+                           FontAttributes="Bold"
+                           HorizontalTextAlignment="Center"/>
+                    <Entry Keyboard="Numeric"
+                           TextColor="White"
+                           HorizontalTextAlignment="Center"/>
+                </StackLayout>
+            </Frame>
+
+            <Frame Grid.Row="2" Grid.Column="2" BackgroundColor="#111111" CornerRadius="10">
+                <StackLayout>
+                    <Label Text="Tx. Total 6x"
+                           TextColor="White"
+                           FontAttributes="Bold"
+                           HorizontalTextAlignment="Center"/>
+                    <Entry Keyboard="Numeric"
+                           TextColor="White"
+                           HorizontalTextAlignment="Center"/>
+                </StackLayout>
+            </Frame>
+
+            <Frame Grid.Row="3" Grid.Column="0" BackgroundColor="#333333" CornerRadius="10">
+                <StackLayout>
+                    <Label Text="Tx. Total 7x"
+                           TextColor="White"
+                           FontAttributes="Bold"
+                           HorizontalTextAlignment="Center"/>
+                    <Entry Keyboard="Numeric"
+                           TextColor="White"
+                           HorizontalTextAlignment="Center"/>
+                </StackLayout>
+            </Frame>
+
+            <Frame Grid.Row="3" Grid.Column="1" BackgroundColor="#222222" CornerRadius="10">
+                <StackLayout>
+                    <Label Text="Tx. Total 8x"
+                           TextColor="White"
+                           FontAttributes="Bold"
+                           HorizontalTextAlignment="Center"/>
+                    <Entry Keyboard="Numeric"
+                           TextColor="White"
+                           HorizontalTextAlignment="Center"/>
+                </StackLayout>
+            </Frame>
+
+            <Frame Grid.Row="3" Grid.Column="2" BackgroundColor="#111111" CornerRadius="10">
+                <StackLayout>
+                    <Label Text="Tx. Total 9x"
+                           TextColor="White"
+                           FontAttributes="Bold"
+                           HorizontalTextAlignment="Center"/>
+                    <Entry Keyboard="Numeric"
+                           TextColor="White"
+                           HorizontalTextAlignment="Center"/>
+                </StackLayout>
+            </Frame>
+
+            <Frame Grid.Row="4" Grid.Column="0" BackgroundColor="#333333" CornerRadius="10">
+                <StackLayout>
+                    <Label Text="Tx. Total 10x"
+                           TextColor="White"
+                           FontAttributes="Bold"
+                           HorizontalTextAlignment="Center"/>
+                    <Entry Keyboard="Numeric"
+                           TextColor="White"
+                           HorizontalTextAlignment="Center"/>
+                </StackLayout>
+            </Frame>
+
+            <Frame Grid.Row="4" Grid.Column="1" BackgroundColor="#222222" CornerRadius="10">
+                <StackLayout>
+                    <Label Text="Tx. Total 11x"
+                           TextColor="White"
+                           FontAttributes="Bold"
+                           HorizontalTextAlignment="Center"/>
+                    <Entry Keyboard="Numeric"
+                           TextColor="White"
+                           HorizontalTextAlignment="Center"/>
+                </StackLayout>
+            </Frame>
+
+            <Frame Grid.Row="4" Grid.Column="2" BackgroundColor="#111111" CornerRadius="10">
+                <StackLayout>
+                    <Label Text="Tx. Total 12x"
+                           TextColor="White"
+                           FontAttributes="Bold"
+                           HorizontalTextAlignment="Center"/>
+                    <Entry Keyboard="Numeric"
+                           TextColor="White"
+                           HorizontalTextAlignment="Center"/>
+                </StackLayout>
+            </Frame>
+
+            <Button Text="Zerar Todas as taxas"
+                    Grid.Row="5"
+                    Grid.Column="1"
+                    TextColor="White"
+                    BackgroundColor="#005CB2"
+                    CornerRadius="5"
+                    VerticalOptions="EndAndExpand"/>
+
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>
