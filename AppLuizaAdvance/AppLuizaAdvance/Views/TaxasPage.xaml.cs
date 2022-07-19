@@ -16,7 +16,7 @@ namespace AppLuizaAdvance.Views
         public TaxasPage()
         {
             InitializeComponent();
-            BindingContext = new TaxasViewModels();
+            BindingContext = new TaxasViewModel();
         }
     }
 }

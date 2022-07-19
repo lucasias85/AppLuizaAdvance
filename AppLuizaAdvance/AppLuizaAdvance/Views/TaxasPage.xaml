@@ -37,7 +37,8 @@
                            TextColor="White"
                            FontAttributes="Bold"
                            HorizontalTextAlignment="Center"/>
-                    <Entry Keyboard="Numeric"
+                    <Entry Text="{Binding Parcela01}"
+                           Keyboard="Numeric"
                            TextColor="White"
                            HorizontalTextAlignment="Center"/>
                 </StackLayout>
@@ -49,7 +50,8 @@
                            TextColor="White"
                            FontAttributes="Bold"
                            HorizontalTextAlignment="Center"/>
-                    <Entry Keyboard="Numeric"
+                    <Entry Text="{Binding Parcela02}"
+                           Keyboard="Numeric"
                            TextColor="White"
                            HorizontalTextAlignment="Center"/>
                 </StackLayout>
@@ -61,7 +63,8 @@
                            TextColor="White"
                            FontAttributes="Bold"
                            HorizontalTextAlignment="Center"/>
-                    <Entry Keyboard="Numeric"
+                    <Entry Text="{Binding Parcela03}"
+                           Keyboard="Numeric"
                            TextColor="White"
                            HorizontalTextAlignment="Center"/>
                 </StackLayout>
@@ -73,7 +76,8 @@
                            TextColor="White"
                            FontAttributes="Bold"
                            HorizontalTextAlignment="Center"/>
-                    <Entry Keyboard="Numeric"
+                    <Entry Text="{Binding Parcela04}"
+                           Keyboard="Numeric"
                            TextColor="White"
                            HorizontalTextAlignment="Center"/>
                 </StackLayout>
@@ -85,7 +89,8 @@
                            TextColor="White"
                            FontAttributes="Bold"
                            HorizontalTextAlignment="Center"/>
-                    <Entry Keyboard="Numeric"
+                    <Entry Text="{Binding Parcela05}"
+                           Keyboard="Numeric"
                            TextColor="White"
                            HorizontalTextAlignment="Center"/>
                 </StackLayout>
@@ -97,7 +102,8 @@
                            TextColor="White"
                            FontAttributes="Bold"
                            HorizontalTextAlignment="Center"/>
-                    <Entry Keyboard="Numeric"
+                    <Entry Text="{Binding Parcela06}"
+                           Keyboard="Numeric"
                            TextColor="White"
                            HorizontalTextAlignment="Center"/>
                 </StackLayout>
@@ -109,7 +115,8 @@
                            TextColor="White"
                            FontAttributes="Bold"
                            HorizontalTextAlignment="Center"/>
-                    <Entry Keyboard="Numeric"
+                    <Entry Text="{Binding Parcela07}"
+                           Keyboard="Numeric"
                            TextColor="White"
                            HorizontalTextAlignment="Center"/>
                 </StackLayout>
@@ -121,7 +128,8 @@
                            TextColor="White"
                            FontAttributes="Bold"
                            HorizontalTextAlignment="Center"/>
-                    <Entry Keyboard="Numeric"
+                    <Entry Text="{Binding Parcela08}"
+                           Keyboard="Numeric"
                            TextColor="White"
                            HorizontalTextAlignment="Center"/>
                 </StackLayout>
@@ -133,7 +141,8 @@
                            TextColor="White"
                            FontAttributes="Bold"
                            HorizontalTextAlignment="Center"/>
-                    <Entry Keyboard="Numeric"
+                    <Entry Text="{Binding Parcela09}"
+                           Keyboard="Numeric"
                            TextColor="White"
                            HorizontalTextAlignment="Center"/>
                 </StackLayout>
@@ -145,7 +154,8 @@
                            TextColor="White"
                            FontAttributes="Bold"
                            HorizontalTextAlignment="Center"/>
-                    <Entry Keyboard="Numeric"
+                    <Entry Text="{Binding Parcela10}"
+                           Keyboard="Numeric"
                            TextColor="White"
                            HorizontalTextAlignment="Center"/>
                 </StackLayout>
@@ -157,7 +167,8 @@
                            TextColor="White"
                            FontAttributes="Bold"
                            HorizontalTextAlignment="Center"/>
-                    <Entry Keyboard="Numeric"
+                    <Entry Text="{Binding Parcela11}"
+                           Keyboard="Numeric"
                            TextColor="White"
                            HorizontalTextAlignment="Center"/>
                 </StackLayout>
@@ -169,7 +180,8 @@
                            TextColor="White"
                            FontAttributes="Bold"
                            HorizontalTextAlignment="Center"/>
-                    <Entry Keyboard="Numeric"
+                    <Entry Text="{Binding Parcela12}"
+                           Keyboard="Numeric"
                            TextColor="White"
                            HorizontalTextAlignment="Center"/>
                 </StackLayout>
