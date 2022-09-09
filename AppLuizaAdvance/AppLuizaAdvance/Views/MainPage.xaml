@@ -1,12 +1,30 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="AppLuizaAdvance.Views.MainPage">
+             x:Class="AppLuizaAdvance.Views.MainPage"
+             BackgroundColor="#000000"
+             Title="Main Page">
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
-        </StackLayout>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="200"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+
+            <StackLayout Grid.Row="0" BackgroundColor="#1E1E1E" Padding="10">
+                <StackLayout Orientation="Horizontal">
+                    <ImageButton HeightRequest="50" WidthRequest="50" BackgroundColor="#4F4F4F" CornerRadius="10" Source="calculate.png" Padding="10" HorizontalOptions="StartAndExpand"/>
+                    <ImageButton HeightRequest="50" WidthRequest="50" BackgroundColor="#4F4F4F" CornerRadius="50" Source="percent.png" Padding="10"/>
+                    <ImageButton HeightRequest="50" WidthRequest="50" BackgroundColor="#4F4F4F" CornerRadius="50" Source="appsettings.png" Padding="10"/>
+                </StackLayout>
+                <Label Text="Olá, Mundo!" FontSize="24" FontAttributes="Bold" TextColor="#FFFFFF" HorizontalTextAlignment="Center"/>
+                <Label Text="Seja bem vindo, a nossa calculadora" FontSize="20" FontAttributes="None" TextColor="#FFFFFF" HorizontalTextAlignment="Center"/>
+                <Label Text="Aplicativo desenvolvido por: @lucasias85" FontSize="14" FontAttributes="None" TextColor="#FFFFFF" HorizontalTextAlignment="Center"/>
+            </StackLayout>
+
+            <StackLayout Grid.Row="1">
+                <Image Source="logoMainPage.png" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"/>
+            </StackLayout>
+        </Grid>
     </ContentPage.Content>
 </ContentPage>
