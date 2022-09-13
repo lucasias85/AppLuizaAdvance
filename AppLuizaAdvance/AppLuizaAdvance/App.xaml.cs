@@ -11,7 +11,7 @@ namespace AppLuizaAdvance
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            MainPage = new NavigationPage(new NovoTaxaPromoPage());
         }
 
         protected override void OnStart()

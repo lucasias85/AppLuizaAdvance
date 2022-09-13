@@ -1,12 +1,60 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="AppLuizaAdvance.Views.NovoTaxaPromoPage">
+             x:Class="AppLuizaAdvance.Views.NovoTaxaPromoPage"
+             BackgroundColor="#000000"
+             Title="Nova Taxa Promo">
+
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Limpar Tudo" Order="Primary" Priority="0"/>
+    </ContentPage.ToolbarItems>
+    
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
-        </StackLayout>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="6*"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            
+            <StackLayout Grid.Row="0">
+                <Label Text="FALA GALERA" TextColor="Wheat"/>
+            </StackLayout>
+            
+            <StackLayout Grid.Row="1" BackgroundColor="#FFFFFF" Margin="5">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+
+                    <Entry x:Name="textBoxParcela01" Grid.Row="1" Grid.Column="0" BackgroundColor="White" Placeholder="Taxa em 1x" HorizontalTextAlignment="Center" Keyboard="Numeric"/>
+                    <Entry x:Name="textBoxParcela02" Grid.Row="1" Grid.Column="1" BackgroundColor="White" Placeholder="Taxa em 2x" HorizontalTextAlignment="Center" Keyboard="Numeric"/>
+                    <Entry x:Name="textBoxParcela03" Grid.Row="1" Grid.Column="2" BackgroundColor="White" Placeholder="Taxa em 3x" HorizontalTextAlignment="Center" Keyboard="Numeric"/>
+                    <Entry x:Name="textBoxParcela04" Grid.Row="3" Grid.Column="0" BackgroundColor="White" Placeholder="Taxa em 4x" HorizontalTextAlignment="Center" Keyboard="Numeric"/>
+                    <Entry x:Name="textBoxParcela05" Grid.Row="3" Grid.Column="1" BackgroundColor="White" Placeholder="Taxa em 5x" HorizontalTextAlignment="Center" Keyboard="Numeric"/>
+                    <Entry x:Name="textBoxParcela06" Grid.Row="3" Grid.Column="2" BackgroundColor="White" Placeholder="Taxa em 6x" HorizontalTextAlignment="Center" Keyboard="Numeric"/>
+                    <Entry x:Name="textBoxParcela07" Grid.Row="5" Grid.Column="0" BackgroundColor="White" Placeholder="Taxa em 7x" HorizontalTextAlignment="Center" Keyboard="Numeric"/>
+                    <Entry x:Name="textBoxParcela08" Grid.Row="5" Grid.Column="1" BackgroundColor="White" Placeholder="Taxa em 8x" HorizontalTextAlignment="Center" Keyboard="Numeric"/>
+                    <Entry x:Name="textBoxParcela09" Grid.Row="5" Grid.Column="2" BackgroundColor="White" Placeholder="Taxa em 9x" HorizontalTextAlignment="Center" Keyboard="Numeric"/>
+                    <Entry x:Name="textBoxParcela10" Grid.Row="7" Grid.Column="0" BackgroundColor="White" Placeholder="Taxa em 10x" HorizontalTextAlignment="Center" Keyboard="Numeric"/>
+                    <Entry x:Name="textBoxParcela11" Grid.Row="7" Grid.Column="1" BackgroundColor="White" Placeholder="Taxa em 11x" HorizontalTextAlignment="Center" Keyboard="Numeric"/>
+                    <Entry x:Name="textBoxParcela12" Grid.Row="7" Grid.Column="2" BackgroundColor="White" Placeholder="Taxa em 12x" HorizontalTextAlignment="Center" Keyboard="Numeric"/>
+                </Grid>
+            </StackLayout>
+
+            <StackLayout Grid.Row="2" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand">
+                <ImageButton HeightRequest="50" WidthRequest="200" BackgroundColor="#3772FF" CornerRadius="10" Source="calculate.png" Padding="10" HorizontalOptions="StartAndExpand"/>
+            </StackLayout>
+
+        </Grid>
     </ContentPage.Content>
 </ContentPage>
